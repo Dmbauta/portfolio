@@ -1,0 +1,52 @@
+img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100vh;
+}
+nav h3 {
+    display: inline;
+    position: relative;
+    top: 2em;
+    left: 2em;
+    margin: 0;
+}
+nav span {
+    font-size: 2em;
+    color: white;
+}
+
+nav a {
+    float: right;
+    margin: 0 2em;
+}
+.header {
+    position: absolute;
+    width: 100%;
+
+    top: 2em;
+    background: rgba(0, 0, 0, 0.5);
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card {
+    display: block;
+    margin: 20px;
+    width:  15em;
+    height: 15em;
+    background-color: hsl(180, 100%, 50%);
+    border-radius: 4px;
+}
