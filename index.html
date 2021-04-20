@@ -4,37 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dMb Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Daniel Musa Bauta</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <img src="michel-rocha-GSIzNfR9GLE-unsplash.jpg" alt="">
-    <nav>
-        <div class="header">
-        <div class="logo"><h3><span>.</span>dMb<span>.</span></h3></div>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <header>
+        <nav>
+            <a href="#" class="logo"><div class="span1"></div>dMb<span class="span2">.</span></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="text-container">
+            <p>Hi</p>
+            <p>I am Daniel</p>
+            <p>I am a Frontend Web Developer</p>
+            <button class="hire-btn">Hire Me</button>
+            <button class="down-cv"><a href="down-cv.pdf">Download my CV</a></button>
+        </section>
+    </header>
+    <section class="about-me" id="about">
+        <div class="about-me-text">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere impedit beatae quia eos sunt dolorum temporibus, corporis quibusdam dolor consectetur vitae, est provident officiis quae ipsum nulla doloribus ducimus nobis!</p>
+            <button class="about-btn">Know More</button>
         </div>
-    </nav>
-    <h1>Daniel Musa Bauta</h1>
-    <section>
-        <h2 id="about">About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, tempore dicta enim sit praesentium minus a quod saepe voluptatibus veniam! Maxime est voluptas doloremque deserunt accusantium? Molestiae laboriosam iure libero?</p>
     </section>
-    <section class="projects">
-        <h2 id="projects">Projects</h2>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+    <section class="projects" id="projects">
+        <div class="project-desc">
+            <h2>Projects</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo similique sequi facilis reprehenderit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, vero!</p>
+        </div>
+        <div class="project-box">
+            <div class="box1">
+                <span>1</span>
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim consectetur eius </p>
+                <button>View</button>
+            </div>
+            <div class="box2">
+                <span>2</span>
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim consectetur eius </p>
+                <button>View</button>
+            </div>
+            <div class="box3">
+                <span>3</span>
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim consectetur eius </p>
+                <button>View</button>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Contact Me</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quam, mollitia maiores dicta aspernatur repellendus iste ipsa tempora architecto labore?</p>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-    </section>
+    <footer>
+        <h2 id="contact">Contact Me</h2>
+        <h3>Lorem, ipsum dolor</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <button>contact me</button> Magni, aspernatur!</p>
+        <hr>
+        <div class="social-icons">
+            <div class="social-logo"><a href="#"><img src="logo-facebook.svg" alt=""></a></div>
+            <div class="social-logo"><a href="#"><img src="logo-linkedin.svg" alt=""></a></div>
+            <div class="social-logo"><a href="#"><img src="logo-google.svg" alt=""></a></div>
+            <div class="social-logo"><a href="#"><img src="logo-github.svg" alt=""></a></div>
+        </div>
+        <p>&copy; dMb 2021</p>
+    </footer>
 </body>
 </html>
